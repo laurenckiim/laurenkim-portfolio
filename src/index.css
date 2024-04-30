@@ -1,0 +1,474 @@
+:root {
+  --primary-black: #1b1404;
+  --primary-gold: #a1936e;
+  --secondary-black: #0a0701;
+  --secondary-gray: #565656;
+  --accent-gold: #a79a77;
+  --accent-gray: #c6c4be;
+  --accent-light-brown: #bbb196;
+  --accent-light-gold: #cfc8b5;
+  --accent-lighter-gold: #d9d3c4;
+}
+
+/* font-family: "DM Sans", sans-serif;
+font-family: "Boska", serif; */
+
+body {
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: var(--accent-light-gold);
+  padding-top: 35px;
+}
+
+.navbar-toggler {
+  border: 1px solid #a1936e;
+}
+
+.navigation-bar {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+}
+
+.btn-close {
+  display: none;
+}
+
+.home-link {
+  transition: all 200ms ease-in-out;
+}
+
+.about-link {
+  color: var(--primary-gold);
+  letter-spacing: 0.07em;
+  margin-right: 100px;
+}
+
+.about-link:hover {
+  color: var(--secondary-gray);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.work-link {
+  color: var(--primary-gold);
+  letter-spacing: 0.07em;
+  margin-right: 100px;
+}
+
+.work-link:hover {
+  color: var(--secondary-gray);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-link {
+  color: var(--primary-gold);
+  letter-spacing: 0.07em;
+  margin-right: 50px;
+}
+
+.contact-link:hover {
+  color: var(--secondary-gray);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.video-background {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.hero-video {
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-title-image {
+  width: 75%;
+}
+
+.overview-row-one {
+  margin-top: 115px;
+}
+
+.meteo-app-image {
+  width: 95%;
+}
+
+.meteoapp-row-two {
+  margin-top: 15px;
+}
+
+.meteoapp-text-column {
+  padding-left: 55px;
+}
+
+.meteoapp-header-text {
+  color: var(--primary-gold);
+  font-family: "DM Sans", sans-serif;
+  font-size: 21.5px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+}
+
+.meteoapp-body-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+}
+
+.meteoapp-tools-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.meteoapp-tools-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.meteoapp-resources-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.meteoapp-resources-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.meteoapp-credit-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.meteoapp-credit-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.view-meteoapp-row {
+  margin-top: 15px;
+}
+
+.view-meteoapp-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.view-meteoapp-link:hover {
+  color: var(--primary-gold);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.main-arrow-image {
+  margin-left: 35px;
+  width: 15%;
+}
+
+.main-arrow-image:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+  transition: all 200ms ease-in-out;
+}
+
+.overview-row-two {
+  margin-top: 57.5px;
+  margin-bottom: 115px;
+}
+
+.chosen-app-image {
+  width: 95%;
+}
+
+.chosenapp-row-two {
+  margin-top: 15px;
+}
+
+.chosenapp-text-column {
+  padding-left: 55px;
+}
+
+.chosenapp-header-text {
+  color: var(--primary-gold);
+  font-family: "DM Sans", sans-serif;
+  font-size: 21.5px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+}
+
+.chosenapp-body-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+}
+
+.chosenapp-tools-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.chosenapp-tools-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.chosenapp-opensource-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.chosenapp-opensource-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.chosenapp-credit-header {
+  color: #b5ab8d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.chosenapp-credit-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 50px;
+}
+
+.view-chosenapp-row {
+  margin-top: 15px;
+}
+
+.view-chosenapp-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.view-chosenapp-link:hover {
+  color: var(--primary-gold);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.footer-image {
+  width: 55%;
+}
+
+.footer-title {
+  color: var(--primary-black);
+  font-family: "Boska", serif;
+  font-size: 23.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 35px;
+  margin-top: 15px;
+}
+
+.footer-text {
+  color: var(--secondary-gray);
+  font-family: "Boska", serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 35px;
+}
+
+.contents-footer {
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+.contents-footer-header {
+  color: var(--primary-black);
+  font-family: "Boska", serif;
+  font-size: 19.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 35px;
+}
+
+.about-footer-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.about-footer-link:hover {
+  color: var(--primary-black);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.portfolio-footer-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.portfolio-footer-link:hover {
+  color: var(--primary-black);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-footer {
+  margin-top: 25px;
+  margin-left: -55px;
+}
+
+.contact-footer-header {
+  color: var(--primary-black);
+  font-family: "Boska", serif;
+  font-size: 19.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 35px;
+}
+
+.email-footer-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.email-footer-link:hover {
+  color: var(--primary-black);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.connect-footer {
+  margin-top: 25px;
+}
+
+.connect-footer-header {
+  color: var(--primary-black);
+  font-family: "Boska", serif;
+  font-size: 19.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 35px;
+}
+
+.github-footer-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.github-footer-link:hover {
+  color: var(--primary-black);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.linkedin-footer-link {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+.linkedin-footer-link:hover {
+  color: var(--primary-black);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.copyright-text {
+  color: var(--secondary-gray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 13.5px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+}

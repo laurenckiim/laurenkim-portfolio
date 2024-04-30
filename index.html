@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend Developer & Engineer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=boska@900,901,701,201,401,301,500,400,200,700,300,501&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/LaurenKimFavicon.avif" rel="icon" />
+    <link href="src/index.css" rel="stylesheet" />
+    <script src="src/index.js"></script>
+    <title>Lauren Kim · Portfolio | Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-none fixed-top navigation-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand home-link" href="index.html">
+          <img
+            src="assets/MainLogo.avif"
+            alt="Lauren Kim Logo"
+            title="Gold Knot (resembling style of historic Korean knot)"
+            width="70"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end space-evenly"
+          id="navbarNav"
+        >
+          <button type="button" class="btn-close" aria-label="Close"></button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                href="about.html"
+                class="nav-link about-link"
+                title="About Lauren Kim"
+              >
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="portfolio.html"
+                class="nav-link work-link"
+                title="View Portfolio"
+              >
+                WORK
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link contact-link"
+                title="Contact Lauren Kim"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="video-background">
+        <div class="video-wrap">
+          <div id="video">
+            <video
+              src="zen.mp4"
+              class="object-fit-cover position-absolute top-50 start-50 translate-middle hero-video"
+              style="width: 100%"
+              id="herovid"
+              autoplay
+              loop
+              muted
+              playsinline
+            ></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row hero-title-row">
+        <img
+          src="assets/LaurenKimTitle.avif"
+          alt="Lauren Kim (Frontend Developer & Engineer)"
+          class="img-fluid position-absolute top-50 start-50 translate-middle hero-title-image"
+        />
+      </div>
+      <div class="row hero-button-row">
+        <a
+          href="index.html#overview"
+          class="hero-caret-link"
+          title="Solid Angle Down Caret"
+        >
+          <button type="button" class="btn">
+            <img
+              src="assets/MainCaret.avif"
+              class="img-fluid position-absolute bottom-0 start-50 translate-middle-x p-2 hero-caret"
+              alt="Angle Down Caret"
+              width="50"
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row overview-row-one" id="overview">
+        <div class="col-md-12 overview-column-one">
+          <div class="row meteoapp-row-one">
+            <div class="col-md-6 meteoapp-column-one">
+              <a
+                href="https://laurenckim-meteo.netlify.app/"
+                class="btn meteo-app-button"
+              >
+                <img
+                  src="assets/MeteoApp.avif"
+                  class="img-fluid meteo-app-image"
+                  alt="Meteo App (Created By Lauren Kim)"
+                  title="Meteo App · An Open Source App"
+                />
+              </a>
+            </div>
+            <div class="col-md-6 meteoapp-column-two">
+              <div class="row meteoapp-row-two">
+                <div class="col-md-12 meteoapp-text-column">
+                  <div class="row meteoapp-header-text-row">
+                    <p class="meteoapp-header-text">METEO WEATHER APP</p>
+                  </div>
+                  <div class="row meteoapp-body-text-row">
+                    <p class="meteoapp-body-text">
+                      Meteo is a universal weather application hosted on
+                      Netlify,
+                      <br />
+                      featuring an API integration & search engine to retrieve
+                      the weather,
+                      <br />
+                      including description, corresponding icon, and wind speed
+                    </p>
+                  </div>
+                  <div class="row meteoapp-tools-row">
+                    <p class="meteoapp-tools-text">
+                      <span class="meteoapp-tools-header">TOOLS · </span>
+                      Figma . HTML . CSS . JavaScript
+                    </p>
+                  </div>
+                  <div class="row meteoapp-resources-row">
+                    <p class="meteoapp-resources-text">
+                      <span class="meteoapp-resources-header">
+                        RESOURCES ·
+                      </span>
+                      SheCodes Weather API
+                    </p>
+                  </div>
+                  <div class="row meteoapp-credit-row">
+                    <p class="meteoapp-credit-text">
+                      <span class="meteoapp-credit-header">CREDIT · </span>
+                      UI8 Weather 3D Icon Pack
+                    </p>
+                  </div>
+                  <div class="row view-meteoapp-row">
+                    <a
+                      href="https://laurenckim-meteo.netlify.app/"
+                      class="view-meteoapp-link"
+                      title="View Meteo App"
+                    >
+                      VIEW METEO APP
+                      <span class="main-arrow">
+                        <img
+                          src="assets/MainArrow.avif"
+                          class="main-arrow-image"
+                        />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row overview-row-two">
+        <div class="col-md-12 overview-column-two">
+          <div class="row chosenapp-row-one">
+            <div class="col-md-6 chosenapp-column-one">
+              <div class="row chosenapp-row-two">
+                <div class="col-md-12 chosenapp-text-column">
+                  <div class="row chosenapp-header-text-row">
+                    <p class="chosenapp-header-text">THE CHOSEN CHALLENGE</p>
+                  </div>
+                  <div class="row chosenapp-body-text-row">
+                    <p class="chosenapp-body-text">
+                      From The Binge-Worthy TV Shows SheCodes Challenge,
+                      <br />
+                      this landing page celebrates The Chosen
+                    </p>
+                  </div>
+                  <div class="row chosenapp-tools-row">
+                    <p class="chosenapp-tools-text">
+                      <span class="chosenapp-tools-header">TOOLS · </span>
+                      Figma . HTML . CSS . JavaScript . Bootstrap
+                    </p>
+                  </div>
+                  <div class="row chosenapp-opensource-row">
+                    <p class="chosenapp-opensource-text">
+                      <span class="chosenapp-opensource-header">
+                        OPEN SOURCE ·
+                      </span>
+                      GitHub
+                    </p>
+                  </div>
+                  <div class="row chosenapp-credit-row">
+                    <p class="chosenapp-credit-text">
+                      <span class="chosenapp-credit-header">CREDIT · </span>
+                      The Chosen (Loaves & Fishes Production)
+                    </p>
+                  </div>
+                  <div class="row view-chosenapp-row">
+                    <a
+                      href="https://thechosenchallenge.netlify.app/"
+                      class="view-chosenapp-link"
+                      title="View The Chosen Challenge"
+                    >
+                      VIEW CHALLENGE
+                      <span class="main-arrow">
+                        <img
+                          src="assets/MainArrow.avif"
+                          class="main-arrow-image"
+                        />
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 chosenapp-column-two">
+              <a
+                href="https://thechosenchallenge.netlify.app/"
+                class="btn chosen-app-button"
+              >
+                <img
+                  src="assets/ChosenApp.avif"
+                  class="img-fluid chosen-app-image"
+                  alt="The Chosen Challenge (Created By Lauren Kim)"
+                  title="The Chosen Challenge · An Open Source Webpage"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer-row">
+          <div class="col-md-2 footer-column-one text-center">
+            <img
+              src="assets/FooterLogo.avif"
+              class="img-fluid footer-image"
+              alt="Lauren Kim Logo"
+            />
+            <p class="footer-title">LAUREN KIM</p>
+            <p class="footer-text text-center">Frontend Developer & Engineer</p>
+          </div>
+          <div class="col-md-3 contents-footer">
+            <p class="contents-footer-header">CONTENTS</p>
+            <div class="about-footer-section">
+              <a
+                href="/about.html"
+                class="about-footer-link"
+                title="About Lauren Kim"
+              >
+                ABOUT
+              </a>
+            </div>
+            <div class="portfolio-footer-section">
+              <a
+                href="/portfolio.html"
+                class="portfolio-footer-link"
+                title="View Portfolio"
+              >
+                WORK
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 contact-footer">
+            <p class="contact-footer-header">CONTACT</p>
+            <div class="contact-footer-section">
+              <a
+                href="mailto:hello@laurenkim.io"
+                class="email-footer-link"
+                title="Email Lauren Kim"
+              >
+                hello@laurenkim.io
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 connect-footer">
+            <p class="connect-footer-header">CONNECT</p>
+            <div class="social-media-section">
+              <div class="github">
+                <a
+                  href="https://github.com/laurenckiim"
+                  class="github-footer-link"
+                  title="Lauren Kim on GitHub"
+                >
+                  GITHUB
+                </a>
+              </div>
+              <div class="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/laurenklobuchar/"
+                  class="linkedin-footer-link"
+                  title="Lauren Kim on LinkedIn"
+                >
+                  LINKEDIN
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-copyright-row">
+          <div class="col-md-11 d-flex justify-content-center copyright-column">
+            <p class="copyright-text">© 2024 LAUREN KIM</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
