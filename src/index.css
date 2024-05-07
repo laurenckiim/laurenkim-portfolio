@@ -215,7 +215,7 @@ footer {
 }
 
 .overview-row-two {
-  margin-top: 57.5px;
+  margin-top: 115px;
   margin-bottom: 115px;
 }
 
@@ -237,6 +237,7 @@ footer {
   font-size: 21.5px;
   font-weight: 500;
   letter-spacing: 0.09em;
+  line-height: 50px;
 }
 
 .chosenapp-body-text {
@@ -472,4 +473,134 @@ footer {
   font-size: 13.5px;
   font-weight: 300;
   letter-spacing: 0.07em;
+}
+
+@media (max-width: 1368px) {
+  .meteoapp-header-text {
+    font-size: 19.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-body-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-tools-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-tools-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-resources-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-resources-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-credit-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-credit-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .view-meteoapp-link {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .main-arrow-image {
+    width: 15%;
+  }
+
+  .chosenapp-header-text {
+    font-size: 19.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-body-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-tools-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-tools-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-opensource-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-opensource-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-credit-header {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-credit-text {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .view-chosenapp-link {
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .about-footer-link {
+    font-size: 13.5px;
+  }
+
+  .portfolio-footer-link {
+    font-size: 13.5px;
+  }
+
+  .email-footer-link {
+    font-size: 13.5px;
+  }
+
+  .github-footer-link {
+    font-size: 13.5px;
+  }
+
+  .linkedin-footer-link {
+    font-size: 13.5px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer-title {
+    font-size: 21.5px;
+  }
+
+  .footer-text {
+    font-size: 11.5px;
+  }
+
+  .copyright-text {
+    font-size: 11.5px;
+  }
 }
