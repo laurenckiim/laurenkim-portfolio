@@ -13,6 +13,8 @@
 /* font-family: "DM Sans", sans-serif;
 font-family: "Boska", serif; */
 
+/* Desktop Screens With Maximum Widths Including 1368px, 1440px, 1680px & 2560px  */
+
 body {
   background-color: #fcfcfc;
   overflow-x: hidden;
@@ -475,6 +477,8 @@ footer {
   letter-spacing: 0.07em;
 }
 
+/* Desktop Screen (With Maximum Width 1368px) */
+
 @media (max-width: 1368px) {
   .meteoapp-header-text {
     font-size: 19.5px;
@@ -591,6 +595,8 @@ footer {
   }
 }
 
+/* Desktop Screen (With Maximum Width 1280px) */
+
 @media (max-width: 1280px) {
   .footer-title {
     font-size: 21.5px;
@@ -602,5 +608,529 @@ footer {
 
   .copyright-text {
     font-size: 11.5px;
+  }
+}
+
+/* Tablet Screen (With Maximum Width 1194px) */
+
+@media (max-width: 1194px) {
+  .meteoapp-header-text {
+    font-size: 17.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-body-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-tools-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-tools-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-resources-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-resources-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-credit-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-credit-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .view-meteoapp-row {
+    margin-top: 0px;
+  }
+
+  .view-meteoapp-link {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .main-arrow-image {
+    width: 13%;
+  }
+
+  .chosenapp-header-text {
+    font-size: 17.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-body-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-tools-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-tools-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-opensource-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-opensource-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-credit-header {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-credit-text {
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .view-chosenapp-row {
+    margin-top: 0px;
+  }
+
+  .view-chosenapp-link {
+    font-size: 13.5px;
+    line-height: 35px;
+  }
+
+  .footer-image {
+    width: 45%;
+  }
+
+  .footer-title {
+    font-size: 21.5px;
+    line-height: 25px;
+  }
+
+  .footer-text {
+    font-size: 11.5px;
+  }
+
+  .contents-footer {
+    margin-top: 15px;
+  }
+
+  .contents-footer-header {
+    font-size: 17.5px;
+  }
+
+  .about-footer-link {
+    font-size: 13.5px;
+  }
+
+  .portfolio-footer-link {
+    font-size: 13.5px;
+  }
+
+  .contact-footer {
+    margin-top: 15px;
+  }
+
+  .contact-footer-header {
+    font-size: 17.5px;
+  }
+
+  .email-footer-link {
+    font-size: 13.5px;
+  }
+
+  .connect-footer {
+    margin-top: 15px;
+  }
+
+  .connect-footer-header {
+    font-size: 17.5px;
+  }
+
+  .github-footer-link {
+    font-size: 13.5px;
+  }
+
+  .linkedin-footer-link {
+    font-size: 13.5px;
+  }
+
+  .copyright-text {
+    font-size: 11.5px;
+  }
+}
+
+/* Tablet Screen (With Maximum Width 936px) */
+
+@media (max-width: 936px) {
+  .navbar-collapse {
+    background-color: rgba(252, 252, 252, 0.95);
+    backdrop-filter: blur(5px);
+    border: 0.5px solid #a1936e;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1000;
+    overflow-y: auto;
+    padding-top: 100px;
+    transition: height 0.5s ease-in-out;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-collapse:not(.show) {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+
+  .navbar-toggler {
+    margin-right: 35px;
+    overflow-x: hidden;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28161, 147, 110, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28161, 147, 110, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+  }
+
+  .btn-close {
+    background-color: transparent;
+    border: 0;
+    color: var(--secondary-gray) !important;
+    font-size: 1rem;
+    line-height: 1;
+    outline: none;
+    padding: 1.8rem 4.1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 200ms ease-in-out;
+  }
+
+  .btn-close:hover {
+    color: var(--primary-black);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+
+  .about-link {
+    line-height: 55px;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .work-link {
+    line-height: 55px;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .contact-link {
+    line-height: 55px;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .meteoapp-row-two {
+    margin-top: 25px;
+  }
+
+  .meteoapp-header-text {
+    font-size: 13.5px;
+    line-height: 0px;
+  }
+
+  .meteoapp-body-text {
+    font-size: 7.5px;
+    line-height: 25px;
+  }
+
+  .meteoapp-tools-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .meteoapp-tools-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .meteoapp-resources-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .meteoapp-resources-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .meteoapp-credit-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .meteoapp-credit-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .view-meteoapp-row {
+    margin-top: 5px;
+  }
+
+  .view-meteoapp-link {
+    font-size: 9.5px;
+    line-height: 25px;
+  }
+
+  .chosenapp-row-two {
+    margin-top: 25px;
+  }
+
+  .chosenapp-header-text {
+    font-size: 13.5px;
+    line-height: 0px;
+  }
+
+  .chosenapp-body-text {
+    font-size: 7.5px;
+    line-height: 25px;
+  }
+
+  .chosenapp-tools-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .chosenapp-tools-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .chosenapp-opensource-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .chosenapp-opensource-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .chosenapp-credit-header {
+    font-size: 9.5px;
+    line-height: 15px;
+  }
+
+  .chosenapp-credit-text {
+    font-size: 7.5px;
+    line-height: 15px;
+  }
+
+  .view-chosenapp-row {
+    margin-top: 5px;
+  }
+
+  .view-chosenapp-link {
+    font-size: 9.5px;
+    line-height: 25px;
+  }
+
+  .footer-title {
+    font-size: 17.5px;
+  }
+
+  .footer-text {
+    font-size: 9.5px;
+    line-height: 25px;
+  }
+
+  .contents-footer {
+    margin-top: 9.5px;
+  }
+
+  .contents-footer-header {
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .about-footer-link {
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .portfolio-footer-link {
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .contact-footer {
+    margin-top: 9.5px;
+  }
+
+  .contact-footer-header {
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .email-footer-link {
+    font-size: 11.5px;
+  }
+
+  .connect-footer {
+    margin-top: 9.5px;
+  }
+
+  .connect-footer-header {
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .github-footer-link {
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .linkedin-footer-link {
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .copyright-text {
+    font-size: 9.5px;
+  }
+}
+
+/* Tablet Screen (With Maximum Width 912px) */
+
+@media (max-width: 912px) {
+  .navbar-collapse {
+    padding-top: 500px;
+  }
+
+  .about-link {
+    font-size: 21.5px;
+    line-height: 100px;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .work-link {
+    font-size: 21.5px;
+    line-height: 100px;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .contact-link {
+    font-size: 21.5px;
+    line-height: 100px;
+    text-align: center;
+    margin-right: 0px;
+  }
+}
+
+/* Tablet Screen (With Maximum Width 834px) */
+
+@media (max-width: 834px) {
+  .navbar-collapse {
+    padding-top: 400px;
+  }
+
+  .footer-title {
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .footer-text {
+    font-size: 7.5px;
+  }
+
+  .contents-footer-header {
+    font-size: 13.5px;
+  }
+
+  .about-footer-link {
+    font-size: 9.5px;
+  }
+
+  .portfolio-footer-link {
+    font-size: 9.5px;
+  }
+
+  .contact-footer-header {
+    font-size: 13.5px;
+  }
+
+  .email-footer-link {
+    font-size: 9.5px;
+  }
+
+  .connect-footer-header {
+    font-size: 13.5px;
+  }
+
+  .github-footer-link {
+    font-size: 9.5px;
+  }
+
+  .linkedin-footer-link {
+    font-size: 9.5px;
+  }
+
+  .copyright-text {
+    font-size: 7.5px;
+  }
+}
+
+/* Tablet Screen (With Maximum Width 768px) */
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    padding-top: 350px;
+  }
+
+  .about-link {
+    font-size: 19.5px;
+  }
+
+  .work-link {
+    font-size: 19.5px;
+  }
+
+  .contact-link {
+    font-size: 19.5px;
   }
 }
