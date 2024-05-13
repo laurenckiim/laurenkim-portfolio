@@ -26,6 +26,68 @@ footer {
   padding-top: 35px;
 }
 
+/* JavaScript Animations (With index.js) */
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.meteoapp-column-one.image-column-1 img {
+  opacity: 0;
+}
+
+.meteoapp-column-one.image-column-1 img.animate {
+  opacity: 1;
+  animation: slideInFromLeft 1.5s ease forwards;
+}
+
+.text-column-1 {
+  opacity: 0;
+}
+
+.text-column-1.animate {
+  opacity: 1;
+  animation: slideInFromRight 1.5s ease forwards;
+}
+
+.chosenapp-column-two.image-column-2 img {
+  opacity: 0;
+}
+
+.chosenapp-column-two.image-column-2 img.animate {
+  opacity: 1;
+  animation: slideInFromRight 1.5s ease forwards;
+}
+
+.text-column-2 {
+  opacity: 0;
+}
+
+.text-column-2.animate {
+  opacity: 1;
+  animation: slideInFromLeft 1.5s ease forwards;
+}
+
+/* Resume CSS For index.html */
+
 .navbar-toggler {
   border: 1px solid #a1936e;
 }
