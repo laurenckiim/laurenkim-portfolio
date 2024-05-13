@@ -1134,3 +1134,559 @@ footer {
     font-size: 19.5px;
   }
 }
+
+/* Mobile Screen (With Maximum Width 540px) */
+
+@media (max-width: 540px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-collapse {
+    padding-top: 150px;
+  }
+
+  .about-link {
+    font-size: 17.5px;
+    line-height: 75px;
+  }
+
+  .work-link {
+    font-size: 17.5px;
+    line-height: 75px;
+  }
+
+  .contact-link {
+    font-size: 17.5px;
+    line-height: 75px;
+  }
+
+  .video-background {
+    width: 100%;
+  }
+
+  .hero-video {
+    width: 100%;
+  }
+
+  .overview-row-one {
+    margin-top: 15px;
+  }
+
+  .meteo-app-image {
+    display: none;
+  }
+
+  .meteoapp-text-column {
+    padding-left: 0px;
+  }
+
+  .meteoapp-header-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-body-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-tools-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .meteoapp-tools-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-resources-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .meteoapp-resources-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .meteoapp-credit-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .meteoapp-credit-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .view-meteoapp-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .main-arrow-image {
+    display: none;
+  }
+
+  .overview-row-two {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .chosen-app-image {
+    display: none;
+  }
+
+  .chosenapp-text-column {
+    padding-left: 0px;
+  }
+
+  .chosenapp-header-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-body-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-tools-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .chosenapp-tools-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-opensource-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .chosenapp-opensource-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .chosenapp-credit-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+    padding-right: 5px;
+  }
+
+  .chosenapp-credit-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 35px;
+  }
+
+  .view-chosenapp-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 35px;
+  }
+
+  .footer-image {
+    width: 20%;
+  }
+
+  .footer-title {
+    font-size: 19.5px;
+  }
+
+  .footer-text {
+    font-size: 11.5px;
+  }
+
+  .contents-footer {
+    margin-top: 35px;
+    margin-left: 0px;
+  }
+
+  .contents-footer-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .about-footer-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .portfolio-footer-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .contact-footer {
+    margin-top: 35px;
+    margin-left: 0px;
+  }
+
+  .contact-footer-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .email-footer-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .connect-footer {
+    margin-top: 35px;
+  }
+
+  .connect-footer-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15.5px;
+    line-height: 15px;
+  }
+
+  .github-footer-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .linkedin-footer-link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11.5px;
+    line-height: 55px;
+  }
+
+  .copyright-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 9.5px;
+    line-height: 55px;
+  }
+}
+
+/* Mobile Screen (With Maximum Width 360px) */
+
+@media (max-width: 360px) {
+  .about-link {
+    font-size: 15.5px;
+  }
+
+  .work-link {
+    font-size: 15.5px;
+  }
+
+  .contact-link {
+    font-size: 15.5px;
+  }
+
+  .meteoapp-header-text {
+    font-size: 13.5px;
+  }
+
+  .meteoapp-body-text {
+    font-size: 8.5px;
+  }
+
+  .meteoapp-tools-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-tools-text {
+    font-size: 8.5px;
+  }
+
+  .meteoapp-resources-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-resources-text {
+    font-size: 8.5px;
+  }
+
+  .meteoapp-credit-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-credit-text {
+    font-size: 8.5px;
+  }
+
+  .view-meteoapp-link {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-header-text {
+    font-size: 13.5px;
+  }
+
+  .chosenapp-body-text {
+    font-size: 8.5px;
+  }
+
+  .chosenapp-tools-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-tools-text {
+    font-size: 8.5px;
+  }
+
+  .chosenapp-opensource-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-opensource-text {
+    font-size: 8.5px;
+  }
+
+  .chosenapp-credit-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-credit-text {
+    font-size: 8.5px;
+  }
+
+  .view-chosenapp-link {
+    font-size: 9.5px;
+  }
+
+  .footer-title {
+    font-size: 17.5px;
+  }
+
+  .footer-text {
+    font-size: 9.5px;
+  }
+
+  .contents-footer-header {
+    font-size: 13.5px;
+  }
+
+  .about-footer-link {
+    font-size: 9.5px;
+  }
+
+  .portfolio-footer-link {
+    font-size: 9.5px;
+  }
+
+  .email-footer-header {
+    font-size: 13.5px;
+  }
+
+  .email-footer-link {
+    font-size: 9.5px;
+  }
+
+  .connect-footer-header {
+    font-size: 13.5px;
+  }
+
+  .github-footer-link {
+    font-size: 9.5px;
+  }
+
+  .linkedin-footer-link {
+    font-size: 9.5px;
+  }
+
+  .copyright-text {
+    font-size: 7.5px;
+  }
+}
+
+/* Mobile Screen (With Maximum Width 320px) */
+
+@media (max-width: 320px) {
+  .about-link {
+    font-size: 13.5px;
+  }
+
+  .work-link {
+    font-size: 13.5px;
+  }
+
+  .contact-link {
+    font-size: 13.5px;
+  }
+
+  .meteoapp-header-text {
+    font-size: 11.5px;
+  }
+
+  .meteoapp-body-text {
+    font-size: 7.5px;
+  }
+
+  .meteoapp-tools-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-tools-text {
+    font-size: 7.5px;
+  }
+
+  .meteoapp-resources-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-resources-text {
+    font-size: 7.5px;
+  }
+
+  .meteoapp-credit-header {
+    font-size: 9.5px;
+  }
+
+  .meteoapp-credit-text {
+    font-size: 7.5px;
+  }
+
+  .view-meteoapp-link {
+    font-size: 9.5px;
+  }
+
+  .overview-row-two {
+    margin-top: 35px;
+  }
+
+  .chosenapp-header-text {
+    font-size: 11.5px;
+  }
+
+  .chosenapp-body-text {
+    font-size: 7.5px;
+  }
+
+  .chosenapp-tools-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-tools-text {
+    font-size: 7.5px;
+  }
+
+  .chosenapp-opensource-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-opensource-text {
+    font-size: 7.5px;
+  }
+
+  .chosenapp-credit-header {
+    font-size: 9.5px;
+  }
+
+  .chosenapp-credit-text {
+    font-size: 7.5px;
+  }
+
+  .view-chosenapp-link {
+    font-size: 9.5px;
+  }
+}
+
+/* Mobile Screen (With Maximum Width 280px) */
+
+@media (max-width: 280px) {
+  .meteoapp-header-text {
+    font-size: 11.5px;
+  }
+
+  .meteoapp-body-text {
+    display: none;
+  }
+
+  .chosenapp-header-text {
+    font-size: 11.5px;
+  }
+
+  .chosenapp-body-text {
+    display: none;
+  }
+}
